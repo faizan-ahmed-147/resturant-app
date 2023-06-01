@@ -20,7 +20,7 @@ const UpdateProduct = () => {
     const { product, error } = useSelector(state => state.productDetails);
 
     const { loading, error: updateError, message } = useSelector(state => state.product);
-    
+
     const [name, setName] = useState("");
     const [price, setPrice] = useState(0);
     const [description, setDescription] = useState("");
@@ -68,19 +68,20 @@ const UpdateProduct = () => {
         updateError,
         message,
         productId,
- 
+
     ]);
 
 
 
     const categories = [
-        "Laptop",
-        "Footwear",
-        "Bottom",
-        "Tops",
-        "Attire",
-        "Camera",
-        "SmartPhones",
+        "burger",
+        "Cheeseburger",
+        "Sandwich",
+        "pizza",
+        "Muffin",
+        "Burrito",
+        "Taco",
+        "Hotdog"
     ];
 
 

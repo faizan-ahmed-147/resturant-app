@@ -13,13 +13,14 @@ import ProductCard from "../Home/ProductCard";
 
 
 const categories = [
-  "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "burger",
+  "Cheeseburger",
+  "Sandwich",
+  "pizza",
+  "Muffin",
+  "Burrito",
+  "Taco",
+  "Hotdog"
 ];
 
 
@@ -119,13 +120,13 @@ const Products = () => {
               />
             </fieldset>
 
-            <Button variant="contained" 
-            className="Clear_Filter"
-            style={{
-              margin: "2vmax 0", 
-              backgroundColor: "red",  
-              padding: "0.9vmax", 
-            }}
+            <Button variant="contained"
+              className="Clear_Filter"
+              style={{
+                margin: "2vmax 0",
+                backgroundColor: "red",
+                padding: "0.9vmax",
+              }}
               onClick={() => { window.location.reload() }} >Clear Filters</Button>
           </div>
 

@@ -28,13 +28,14 @@ const NewProduct = () => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "burger",
+    "Cheeseburger",
+    "Sandwich",
+    "pizza",
+    "Muffin",
+    "Burrito",
+    "Taco",
+    "Hotdog"
   ];
 
 
